@@ -124,7 +124,8 @@ html {
 	position: relative;
 	max-width: var(--grid-max-width);
 	margin: 0 auto;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	display: grid;
 	grid-gap: 20px;
