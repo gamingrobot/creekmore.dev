@@ -1,1 +1,1 @@
-Zola source for https://morgancreekmore.me
+Zola source for https://creekmore.dev

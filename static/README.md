@@ -1,2 +1,2 @@
 # Website
-https://morgancreekmore.me
+https://creekmore.dev
