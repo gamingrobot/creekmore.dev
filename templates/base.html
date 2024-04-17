@@ -2,7 +2,7 @@
 <html lang=en>
 
 <head>
-    <meta name=generator content="Hugo 0.110.0">
+    <meta name=generator content="Zola">
     <meta charset=utf-8>
     <title>
         {% block title %}
@@ -10,8 +10,19 @@
         {% endblock title %}
     </title>
     <meta name="theme-color" content="#0d3a58"/>
-    <meta name=description content="{{ config.description }}">
+    <meta content="website" property="og:type"/>
+    <meta content="{{ config.base_url | safe }}" property="og:url"/>
+    <meta content="{{ config.base_url | safe }}" property="twitter:url"/>
     <meta name=author content="{{ config.author }}">
+    <meta content="{{ config.author }}" property="og:site_name"/>
+    <meta content="{{ config.author }}" property="og:title"/>
+    <meta content="{{ config.author }}" property="twitter:title"/>
+    <meta name=description content="{{ config.description }}">
+    <meta content="{{ config.description }}" property="og:description"/>
+    <meta content="{{ config.description }}" property="description"/>
+    <meta content="{{ config.description }}" property="twitter:description"/>
+    <meta property="og:image" content="{{ get_url(path="img/profile_full.png") }}" />
+    <meta property="twitter:image" content="{{ get_url(path="img/profile_full.png") }}" />
     <meta name=viewport content="width=device-width,initial-scale=1">
     {% block css %}
         <link href="{{ get_url(path="css/fonts.css") }}" rel="stylesheet" type="text/css"/>
