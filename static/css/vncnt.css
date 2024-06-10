@@ -69,6 +69,7 @@ p {
   display: block;
   margin: auto;
   border: 5px solid var(--accent-color);
+  height: auto;
 }
 
 .autocenter {
