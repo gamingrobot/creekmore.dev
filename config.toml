@@ -4,7 +4,7 @@ title = "Morgan Creekmore"
 author = "Morgan Creekmore"
 description = "Software Engineer and 3D Artist"
 
-compile_sass = false
+compile_sass = true
 build_search_index = false
 
 [markdown]
