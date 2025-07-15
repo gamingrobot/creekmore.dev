@@ -122,7 +122,7 @@ html {
 
 .grid-container {
 	position: relative;
-	max-width: var(--grid-max-width);
+	//max-width: var(--grid-max-width);
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -177,7 +177,7 @@ body {
   font-size: 1.6rem;		/* changed from 15px in orig skeleton */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "InterVariable", system-ui, sans-serif;
+  font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif;
   color: var(--text-color-normal); 
   background-color: var(--background-color);;
 }
