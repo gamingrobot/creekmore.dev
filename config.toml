@@ -2,7 +2,7 @@ base_url = "https://creekmore.dev"
 
 title = "Morgan Creekmore"
 author = "Morgan Creekmore"
-description = "Software Engineer and 3D Artist"
+description = "Software Engineer and Artist"
 
 compile_sass = true
 build_search_index = false
